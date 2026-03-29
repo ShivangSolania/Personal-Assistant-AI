@@ -1,6 +1,6 @@
 # AI Task Orchestration System
 
-A modular, production-ready AI assistant that decomposes user queries into subtasks, routes them dynamically through a multi-agent pipeline, and executes them via MCP-compatible tools — all orchestrated by **LangGraph**.
+A modular, production-ready AI assistant that decomposes user queries into subtasks, routes them dynamically through a multi-agent pipeline, and executes them via MCP-compatible tools all orchestrated by **LangGraph**.
 
 ---
 
@@ -68,7 +68,7 @@ Every tool is registered as an **MCP-compatible function** with:
 
 ### Tool Auto-Discovery
 
-Drop a new `.py` file into `mcp/tools/` with a `register(registry)` function and it will be picked up automatically on startup — no config changes needed.
+Drop a new `.py` file into `mcp/tools/` with a `register(registry)` function and it will be picked up automatically on startup no config changes needed.
 
 ---
 
